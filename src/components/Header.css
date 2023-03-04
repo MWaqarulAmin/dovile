@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&display=swap");
+
+.header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logoContainer {
+  width: 100%;
+  justify-content: center;
+}
+
+.logo {
+  margin-top: 40px;
+  margin-bottom: 26px;
+  height: 23px;
+  width: 106px;
+  cursor: pointer;
+}
+
+#nav {
+  padding-bottom: 48px;
+  width: 100%;
+  justify-content: center;
+}
+
+#link {
+  margin-left: 40px;
+  color: #454545;
+  font-family: "Bodoni Moda", serif;
+  font-size: 16px;
+  outline: none;
+  text-decoration: none;
+  width: fit-content;
+  text-align: right;
+}
+
+a:visited {
+  border-bottom: 1px solid black;
+  color: #454545;
+}
+
+a:focus {
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+a:hover {
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+a:active {
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+@media only screen and (max-width: 576px) {
+  .logoContainer {
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo {
+    width: 70px;
+    height: 15px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .container {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  #link {
+    margin: 10px;
+    padding: 0;
+    text-align: right;
+    color: #454545;
+    cursor: pointer;
+    font-family: "Bodoni Moda", serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    justify-content: right;
+  }
+
+  #nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+  }
+}

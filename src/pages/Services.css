@@ -1,0 +1,505 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+
+/* Services Section */
+
+.servicesSectionServices {
+  margin: 0;
+  background-color: #fff5f5;
+}
+
+.servicesImageServices {
+  text-align: right;
+  display: flex;
+}
+
+#servicesImageServices {
+  width: 600px;
+  height: 624px;
+}
+
+.servicesContentServices {
+  margin-left: 38px;
+  margin-top: 140px;
+  text-align: left;
+}
+
+.servicesContentServices h1 {
+  font-size: 64px;
+  color: #454545;
+  font-family: "Vidaloka", serif;
+  font-weight: 500;
+  letter-spacing: -1.92px;
+  line-height: 52px;
+  margin-bottom: 48px;
+  overflow-wrap: break-word;
+  text-align: left;
+}
+.servicesTextServices {
+  padding-bottom: 80px;
+  width: 82%;
+  color: #454545;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Nunito Sans", sans-serif;
+  text-align: left;
+  font-weight: 400;
+  overflow-wrap: break-word;
+  text-align: left;
+}
+
+.servicesButtonServices {
+  padding: 14px 36px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #454545;
+  border-color: transparent;
+  cursor: pointer;
+  font-weight: 400;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 576px) {
+  .servicesImageServices #servicesImageServices {
+    width: 310px;
+    height: 303px;
+    margin-left: 10px;
+  }
+
+  .servicesButtonServices {
+    margin-bottom: 14px;
+  }
+
+  .servicesSectionServices {
+    padding-left: 0px;
+    padding-bottom: 40px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .servicesTextServices {
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  .servicesContentServices {
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+
+  .servicesContentServices h1 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+    font-size: 40px;
+  }
+}
+
+/* Social Media Management Section */
+
+.socialMediaSectionServices {
+  background-color: white;
+  width: 100%;
+}
+
+.socialMediaSectionHeadingServices {
+  margin-top: 0px;
+  margin-left: 38px;
+  padding-top: 0px;
+  justify-content: left;
+  width: 72%;
+}
+
+#socialMediaSectionDescriptionServices {
+  width: 72%;
+  color: #454545;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: normal;
+  margin-top: 50px;
+  margin-bottom: 130px;
+  margin-left: 38px;
+}
+
+#longText {
+  width: 76%;
+}
+
+.socialMediaSectionContainerServices {
+  margin-left: 38px;
+}
+
+.socialMediaBoxServices {
+  text-align: left;
+  margin-bottom: 120px;
+  display: flex;
+}
+
+.socialMediaSectionServices h2 {
+  color: #454545;
+  font-size: 56px;
+  font-weight: 500;
+  font-family: "Vidaloka", serif;
+  padding-top: 120px;
+  padding-bottom: 34px;
+}
+
+.socialMediaSectionServices h5 {
+  color: #454545;
+  font-size: 32px;
+  font-family: "Vidaloka", serif;
+  padding-bottom: 10px;
+  text-align: start;
+}
+
+.socialMediaSectionServices p {
+  color: #454545;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  text-align: start;
+}
+
+@media only screen and (max-width: 576px) {
+  #socialMediaSectionDescriptionServices {
+    width: 100%;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+  }
+
+  .socialMediaBoxServices {
+    width: 100%;
+    padding-right: 10px;
+    text-align: left;
+    justify-content: left;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 40px;
+  }
+
+  .socialMediaSectionServices h2 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 36px;
+    margin-left: 10px;
+  }
+
+  .socialMediaSectionServices h5 {
+    justify-content: start;
+    font-size: 24px;
+    padding-bottom: 0;
+    margin-left: 10px;
+  }
+
+  .socialMediaSectionServices p {
+    padding-right: 12px;
+    margin-left: 10px;
+  }
+}
+
+/* Graphic Design Section */
+
+.graphicDesignSectionServices {
+  background-color: #fff5f5;
+  width: 100%;
+  padding-bottom: 150px;
+  padding-left: 90px;
+}
+
+.graphicDesignSectionHeadingServices {
+  justify-content: left;
+  color: #454545;
+  font-size: 56px;
+  font-weight: 500;
+  font-family: "Vidaloka", serif;
+  padding-top: 120px;
+}
+
+#graphicDesignSectionDescriptionServices {
+  width: 70%;
+  color: #454545;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: normal;
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+
+.graphicDesignBoxServices {
+  text-align: left;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.graphicDesignSectionServices h5 {
+  color: #454545;
+  font-size: 32px;
+  font-family: "Vidaloka", serif;
+  padding-bottom: 10px;
+  text-align: start;
+}
+
+.graphicDesignSectionServices p {
+  color: #454545;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  text-align: start;
+}
+
+.viewMoreButtonContainerServices {
+  padding: 0;
+}
+
+.viewMoreButtonServices {
+  padding: 14px 36px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #454545;
+  border-color: transparent;
+}
+
+.graphicDesignImageContainerServices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.graphicDesignImageContainerServices img {
+  width: 397.333px;
+  height: 397.333px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .graphicDesignSectionServices {
+    padding-bottom: 60px;
+    padding-left: 0px;
+  }
+
+  #graphicDesignSectionDescriptionServices {
+    width: 100%;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .graphicDesignBoxServices {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: left;
+    justify-content: left;
+    display: inline-block;
+  }
+
+  .graphicDesignSectionServices h2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 36px;
+    padding-left: 12px;
+  }
+
+  .graphicDesignSectionServices h5 {
+    justify-content: start;
+    font-size: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .graphicDesignSectionServices p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .graphicDesignImageContainerServices img {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 185px;
+    height: 185px;
+  }
+}
+
+/* Testimonial Section */
+
+.testimonialSectionServices {
+  margin: 0;
+  background-color: white;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  padding-right: 300px;
+}
+
+.testimonialImageServices {
+  text-align: left;
+  margin-left: 250px;
+}
+
+#testimonialImageServices {
+  width: 288px;
+  height: 304px;
+}
+
+.testimonialContentServices {
+  padding-top: 88px;
+  text-align: left;
+  display: inline-block;
+  width: 82%;
+  margin-left: 40px;
+}
+
+.testimonialTextServices {
+  margin-bottom: 32px;
+  line-height: 24px;
+  color: #454545;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  overflow-wrap: break-word;
+  text-align: left;
+}
+
+#testimonialNameServices {
+  color: #454545;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#testimonialPostServices {
+  color: #454545;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 576px) {
+  .testimonialSectionServices {
+    padding-bottom: 120px;
+  }
+
+  .testimonialSectionServices {
+    padding-top: 60px;
+    padding-right: 34px;
+  }
+
+  .testimonialImageServices {
+    margin-left: 10px;
+  }
+
+  #testimonialImageServices {
+    width: 155px;
+    height: 163px;
+    text-align: left;
+    justify-content: left;
+  }
+
+  .testimonialContentServices {
+    margin-left: 10px;
+    padding-top: 20px;
+    width: 100%;
+  }
+}
+
+/* About Section */
+
+.consultationSectionServices {
+  margin: 0;
+  background-color: #fff5f5;
+  text-align: left;
+  padding-left: 16px;
+}
+
+.consultationSectionRowServices {
+  width: 100%;
+}
+
+.consultationContentServices {
+  padding-right: 130px;
+}
+
+.consultationContentServices h2 {
+  color: #454545;
+  margin-bottom: 30px;
+  font-family: "Vidaloka", serif;
+  font-weight: 500;
+  font-size: 56px;
+  font-style: normal;
+  line-height: 72.8px;
+  margin-top: 140px;
+  letter-spacing: -0.56px;
+  justify-content: left;
+  display: flex;
+}
+
+.descriptionServices {
+  color: #454545;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 27px;
+  font-family: "Nunito Sans", sans-serif;
+  margin-bottom: 80px;
+}
+
+.getYoursButtonServices {
+  padding: 14px 36px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #454545;
+  border-color: transparent;
+}
+
+.consultationPicServices {
+  width: 600px;
+  height: 624px;
+}
+
+.consultationImageServices {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 576px) {
+  .consultationPicServices {
+    width: 310px;
+    height: 323px;
+    justify-content: left;
+    margin-top: 14px;
+    margin-bottom: 40px;
+  }
+
+  .consultationContentServices {
+    width: 100%;
+    padding: 0;
+  }
+
+  .consultationContentServices h2 {
+    font-size: 36px;
+    letter-spacing: -0.36px;
+    line-height: 46.8px;
+    margin-bottom: 32px;
+    margin-top: 50px;
+  }
+
+  .descriptionServices {
+    margin-bottom: 30px;
+  }
+}

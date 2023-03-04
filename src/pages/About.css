@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
+
+/* About Section */
+
+.aboutSectionAbout {
+  margin: 0;
+  background-color: white;
+  text-align: left;
+  padding-left: 16px;
+}
+
+.aboutSectionRowAbout {
+  width: 100%;
+}
+
+.aboutContentAbout {
+  padding-right: 60px;
+}
+
+.aboutContentAbout h2 {
+  color: #454545;
+  margin-bottom: 48px;
+  font-family: "Vidaloka", serif;
+  font-weight: 500;
+  font-size: 64px;
+  font-style: normal;
+  line-height: 83.2px;
+  margin-top: 140px;
+  letter-spacing: -1.92px;
+  justify-content: left;
+  display: flex;
+}
+
+.descriptionAbout {
+  color: #454545;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 27px;
+  font-family: "Nunito Sans", sans-serif;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.contactButtonAbout {
+  padding: 14px 36px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #454545;
+  border-color: transparent;
+}
+
+.aboutPicAbout {
+  width: 600px;
+  height: 624px;
+}
+
+.aboutImageAbout {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 576px) {
+  .aboutPicAbout {
+    width: 310px;
+    height: 323px;
+    justify-content: left;
+    margin-top: 14px;
+    margin-bottom: 40px;
+  }
+
+  .aboutContentAbout {
+    width: 100%;
+    padding: 0;
+  }
+
+  .aboutContentAbout h2 {
+    font-size: 36px;
+    letter-spacing: -0.36px;
+    line-height: 46.8px;
+    margin-bottom: 32px;
+    margin-top: 50px;
+  }
+
+  .descriptionAbout {
+    margin-bottom: 30px;
+  }
+}
+
+/* Changing Section */
+
+.changingSectionAbout {
+  background-color: #fff5f5;
+  padding-top: 10px;
+  padding-bottom: 120px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+}
+
+.changingSectionAbout h2 {
+  color: #454545;
+  font-family: "Vidaloka", serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.56px;
+  line-height: 72.8px;
+  margin-bottom: 32px;
+  margin-top: 140px;
+  justify-content: center;
+}
+
+.introductionAbout {
+  color: #454545;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 27px;
+  text-align: center;
+  width: 63%;
+}
+
+@media only screen and (max-width: 576px) {
+  .changingSectionAbout {
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .changingSectionAbout h2 {
+    font-size: 36px;
+    letter-spacing: -0.36px;
+    line-height: 46.8px;
+    margin-bottom: 32px;
+    margin-top: 50px;
+  }
+  .introductionAbout {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Blog Section */
+
+.blogSectionAbout {
+  background-color: white;
+  text-align: left;
+}
+
+.blogContentAbout {
+  margin-right: 0px;
+  padding-top: 40px;
+  text-align: left;
+  margin-left: 120px;
+}
+
+.blogContentAbout h1 {
+  color: #454545;
+  margin-bottom: 60px;
+  font-family: "Vidaloka", serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.3em;
+  margin-top: 140px;
+}
+
+.blogContentAbout p {
+  color: #454545;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  font-family: "Nunito Sans", sans-serif;
+  margin-bottom: 100px;
+  text-align: left;
+  width: 80%;
+}
+
+.blogButtonAbout {
+  padding: 14px 36px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #454545;
+  border-color: transparent;
+}
+
+.blogImageAbout {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+#blogImageAbout {
+  width: 600px;
+  height: 624px;
+}
+
+@media only screen and (max-width: 576px) {
+  .imageColumnAbout {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .blogContentAbout {
+    margin-right: 14px;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .blogContentAbout h1 {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding-top: 0px;
+  }
+
+  .blogImageAbout {
+    margin-left: 14px;
+    justify-content: left;
+    margin-top: 14px;
+  }
+
+  #blogImageAbout {
+    width: 310px;
+    height: 323px;
+  }
+
+  .blogContentAbout p {
+    margin-bottom: 20px;
+  }
+
+  .blogButtonAbout {
+    margin-top: 0px;
+  }
+}

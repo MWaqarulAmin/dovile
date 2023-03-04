@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
+
+.blogSectionBlog {
+  display: flex;
+  justify-content: center;
+}
+.div1Blog {
+  text-align: left;
+  width: 600px;
+}
+
+.div2Blog {
+  text-align: left;
+  width: 600px;
+}
+
+.blogh3Blog {
+  margin-bottom: 12px;
+  margin-top: 26px;
+  color: #000000;
+  cursor: pointer;
+  font-family: "Vidaloka", serif;
+  font-size: 24px;
+  font-weight: 700;
+  width: 90%;
+  letter-spacing: 3pt;
+}
+
+.blogpBlog {
+  color: #000000;
+  cursor: pointer;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  margin-bottom: 12px;
+  opacity: 0.8;
+  display: inline-block;
+}
+
+.imageContainerBlog {
+  width: fit-content;
+}
+.imageBlog {
+  width: 600px;
+  height: 360px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+  .blogSectionBlog {
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+
+  .div1Blog {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 100%;
+  }
+
+  .div2Blog {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 100%;
+  }
+
+  .imageBlog {
+    width: 412px;
+    height: 247px;
+    cursor: pointer;
+  }
+}
